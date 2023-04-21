@@ -1,0 +1,39 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        background-image: url(img/topmobile.jpg);
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        padding-top: 239px;
+        padding-bottom: 33px;
+    }
+
+    .top__text {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .top__button {
+        margin-top: 33px;
+        margin-bottom: 239px;
+    }
+
+    .game-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
