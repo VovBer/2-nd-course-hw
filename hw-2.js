@@ -1,13 +1,12 @@
 // 1
 let a = 10;
+a = 20;
 alert(a);
-let b = 20;
-alert(b);
 // 2
-let year = "год выпуска первого iPhone - 2007";
+const year = "год выпуска первого iPhone - 2007";
 alert(year);
 // 3
-let creator = "создатель языка программирования JavaScript - Brendan Eich";
+const creator = "создатель языка программирования JavaScript - Brendan Eich";
 alert(creator);
 // 4
 let c = 10;
