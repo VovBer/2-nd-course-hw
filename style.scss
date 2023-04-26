@@ -51,6 +51,10 @@ body {
         border: 1px transparent;
         margin-bottom: 493px;
         margin-top: 44px;
+        transition: all .3s;
+        &:hover {
+            background: #EB443F;
+        }
     }
 
     &__button__text {

@@ -49,6 +49,10 @@ body {
   border: 1px transparent;
   margin-bottom: 493px;
   margin-top: 44px;
+  transition: all 0.3s;
+}
+.top__button:hover {
+  background: #EB443F;
 }
 .top__button__text {
   font-style: normal;
