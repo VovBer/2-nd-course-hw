@@ -112,6 +112,63 @@ body {
   border-radius: 16px;
 }
 
+.seasons {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: #000915;
+}
+.seasons__left {
+  grid-column: span 6;
+  padding-top: 282px;
+}
+.seasons__left__title {
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.seasons__left__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  max-width: 584px;
+}
+.seasons__left__button {
+  background: #9C0332;
+  width: 234px;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px transparent;
+  margin-bottom: 282px;
+  margin-top: 32px;
+  transition: all 0.3s;
+}
+.seasons__left__button:hover {
+  background: #EB443F;
+}
+.seasons__image {
+  grid-column: span 5;
+  background-image: url(img/seasonsimage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 102px;
+  width: 100%;
+  padding-bottom: 233px;
+}
+
+.seasons__button__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -143,5 +200,40 @@ body {
   .game-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .seasons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .seasons__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 51px;
+  }
+  .seasons__left__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .seasons__left__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .seasons__left__button {
+    margin-bottom: 0;
+  }
+  .seasons__image {
+    height: 236px;
+    margin-left: 0;
+    margin-top: 64px;
+    margin-bottom: 85px;
   }
 }/*# sourceMappingURL=style.css.map */

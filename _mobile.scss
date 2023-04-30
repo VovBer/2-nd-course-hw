@@ -36,4 +36,44 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .seasons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        &__left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            padding-top: 51px;
+            &__title {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &__text {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &__button {
+                margin-bottom: 0;
+            }
+        }
+        &__image {
+            height: 236px;
+            margin-left: 0;
+            margin-top: 64px;
+            margin-bottom: 85px;
+        }
+    }
+
+
+
+
+
 }

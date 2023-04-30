@@ -75,3 +75,23 @@ switch (monthNumber) {
         alert('номер месяца больше 12')
         break;
 }
+// 7
+const userNumber = +prompt('Пожалуйста, введите любое число');
+
+if (isNaN(userNumber)) {
+    alert('Некорректное значение!');
+} else if (userNumber % 2 == 0) {
+    alert('Число четное');
+} else {
+    alert('Число нечетное');
+}
+// 8
+let clientOS = 0;
+let clientAndroid = 1;
+let client = prompt('Введите 0 если у Вас iOs, введите 1 если у Вас android');
+
+if (client === clientOS) {
+    alert('Установите версию приложения для iOS по ссылке');
+} else {
+    alert('Установите версию приложения для Android по ссылке');
+}
