@@ -25,8 +25,10 @@ if (d>100 || e>100) {
 }
 // 4
 let a = '2';
-let b = '3'
-alert(Nunber(a) + Number(b));
+let b = '3';
+let Numbera = 2;
+let Numberb = 3;
+alert(Numbera+Numberb);
 // 5
 let monthNumber = Number(prompt('Введите номер месяца в году'));
 
@@ -69,7 +71,7 @@ if (isNaN(userNumber)) {
 // 8
 let clientOS = 0;
 let clientAndroid = 1;
-let client = prompt('Введите 0 если у Вас iOs, введите 1 если у Вас android');
+let client = Number(prompt('Введите 0 если у Вас iOs, введите 1 если у Вас android'));
 
 if (client === clientOS) {
     alert('Установите версию приложения для iOS по ссылке');
