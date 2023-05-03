@@ -173,4 +173,60 @@ body {
     color: #FFFFFF;
 }
 
+.words {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: #000915;
+    &__right {
+        grid-column: span 7;
+        padding-left: 135px;
+        margin-top: 282px;
+        &__title {
+            padding-bottom: 32px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;      
+        }
+        &__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            color: #FFFFFF;
+            max-width: 588px;
+        }
+        &__button {
+            background: #9C0332;
+            width: 234px;
+            height: 48px;
+            border-radius: 30px;
+            border: 1px transparent;
+            margin-bottom: 282px;
+            margin-top: 32px;
+            transition: all .3s;
+            &:hover {
+                background: #EB443F;
+            }
+        }
+    }
+    &__image {
+        grid-column: span 5;
+        background-image: url(img/wordsimage.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+    }
+}
+
+.words__button__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
 @import 'mobile';
