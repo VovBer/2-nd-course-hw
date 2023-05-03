@@ -120,6 +120,7 @@ body {
 .seasons__left {
   grid-column: span 6;
   padding-top: 282px;
+  padding-bottom: 282px;
 }
 .seasons__left__title {
   padding-bottom: 32px;
@@ -143,7 +144,6 @@ body {
   height: 48px;
   border-radius: 30px;
   border: 1px transparent;
-  margin-bottom: 282px;
   margin-top: 32px;
   transition: all 0.3s;
 }
@@ -267,6 +267,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding-top: 51px;
+    padding-bottom: 0;
   }
   .seasons__left__title {
     font-weight: 700;

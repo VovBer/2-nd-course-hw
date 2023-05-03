@@ -123,6 +123,7 @@ body {
     &__left {
         grid-column: span 6;
         padding-top: 282px;
+        padding-bottom: 282px;
         &__title {
             padding-bottom: 32px;
             font-style: normal;
@@ -145,7 +146,6 @@ body {
             height: 48px;
             border-radius: 30px;
             border: 1px transparent;
-            margin-bottom: 282px;
             margin-top: 32px;
             transition: all .3s;
             &:hover {
