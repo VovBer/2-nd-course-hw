@@ -110,6 +110,21 @@
         }
     }
 
+    .puzzles {
+        background-image: url(img/puzzlesmobile.jpg);
+        &__title {
+            padding-top: 51px;
+            font-size: 32px;
+            line-height: 39px;    
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__button {
+            margin-bottom: 487px;
+        }
+    }
 
 
 
