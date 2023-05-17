@@ -128,3 +128,15 @@ function getEvenNumber() {
 }
 
 console.log(getEvenNumber());
+
+// Задание 15 Создайте массив, состоящий из 6 элементов. Элементы массива необходимо сгенерировать с помощью Math.random()в диапазоне от 1 до 10. Требуется найти среднее арифметическое этих цифр, результат программы вывести в консоль. Для получения среднего арифметического необходимо все значения массива сложить и разделить на количество элементов в массиве.
+
+let arrayRound2 = [];
+for (let i = 0; i < 6; i++) {
+    arrayRound2.push(Math.round(Math.random() * 10));    
+}
+
+console.log(arrayRound2);
+
+const arithmeticMean = (arrayRound2.reduce((a, b) => (a + b))) / (arrayRound2.length);
+console.log(arithmeticMean.toFixed(2));
