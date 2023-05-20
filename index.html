@@ -34,7 +34,18 @@
         <div class="words__right">
             <h2 class="words__right__title">Запомни слова</h2>
             <p class="words__right__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
-            <button class="words__right__button" type="submit"><span class="words__button__text">Играть!</span></button>
+            <button class="words__right__button" onclick="alert(fruitsArray);
+
+            let ansver = prompt('Чему равнялся первый элемент массива?');
+            let ansver1 = prompt('Чему равнялся последний элемент массива?');
+            
+            if (ansver.toLowerCase == fruitsArray[0].toLowerCase && ansver1.toLowerCase == fruitsArray[6].toLowerCase) {
+                alert('Поздравляю!!!');   
+            } else if (ansver.toLowerCase !== fruitsArray[0].toLowerCase && ansver1.toLowerCase !== fruitsArray[6].toLowerCase) {
+                alert('Не угадал!');
+            } else {
+                alert('Вы были близки к победе!');
+            }" type="submit"><span class="words__button__text">Играть!</span></button>
         </div>
     </div>
     <div class="puzzles center">
@@ -48,5 +59,6 @@
     
     <!-- //* <script src="hw-2.js"></script> -->
     <script src="hw5-8.js"></script>
+    <script src="hw7-11.js"></script>
 </body>
 </html>
