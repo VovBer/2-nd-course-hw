@@ -105,9 +105,9 @@ alert(fruitsArray);
 let ansver = prompt('Чему равнялся первый элемент массива?');
 let ansver1 = prompt('Чему равнялся последний элемент массива?');
 
-if (ansver.toLowerCase == fruitsArray[0].toLowerCase && ansver1.toLowerCase == fruitsArray[6].toLowerCase) {
+if (ansver.toLowerCase() == fruitsArray[0].toLowerCase() && ansver1.toLowerCase() == fruitsArray[6].toLowerCase()) {
     alert('Поздравляю!!!');   
-} else if (ansver.toLowerCase !== fruitsArray[0].toLowerCase && ansver1.toLowerCase !== fruitsArray[6].toLowerCase) {
+} else if (ansver.toLowerCase() !== fruitsArray[0].toLowerCase() && ansver1.toLowerCase() !== fruitsArray[6].toLowerCase()) {
     alert('Не угадал!');
 } else {
     alert('Вы были близки к победе!');
